@@ -1,0 +1,23 @@
+design process is a chain of specification. i.e., ____?;definition->implementation->verification steps
+What does requirements specification refer to?;Definition of external behaviour 
+What does design specification refer to?;Definition of software architecture
+Corrective maintenance not only changes the implementation. Is this statement true or false?;False;->Corrective maintenance only changes the implementation.
+Adaptive and perfective maintenance occur because of what?;requirement changes
+What does specification clarify?;Specification clarifies whether the change involves a modification to the interface or the implementation.
+List specification qualities.;Usability, maintainability, reusability, and verification etc.;Clear, Unambiguous, Understandable;Consistent;Complete;Incremental;Validatable;Abstract
+"Selecting is the process of designating areas of the document that you want to work on. Most editing and formatting actions require two steps: first you select what you want to work on, such as text or graphics, then you initiate the appropriate action." What are the potential problems with this specification?;Can an area be scattered?;Can both text and graphics be selected?
+"The message must be triplicated. The three copies must be forwarded through three different physical channels. The receiver accepts the message on the basis of a two-out-of-three voting policy." What is a potential problems with this specification?;Can a message be accepted as soon as we receive 2 out of 3 identical copies, or do we need to wait for receipt of the 3rd.
+Given specification: "The program shall be user friendly." What is a potential problem with this specification?;What does it mean to be user friendly?;Who is a typical user?;How would you measure success or failure in meeting this requirement?
+Given specification: "Given A and b, solve the linear system Ax = b for x, such that the error in any entry of x is less than 5 %?" What is a potential problem with this specification?;Is A constrained to be square?;Can A be singular?;Even if the problem is made completely unambiguous, the requirement cannot be validated.
+"The whole text should be kept in lines of equal length. The length is specified by the user. Unless the user gives an explicit hyphenation command, a carriage return should occur only at the end of a word." What is a potential problems with this specification?;What if the length of a word exceeds the length of the line?
+List some Homonyms;Same spelling different meaning, maybe different pronunciation (ex. bank, bow, biweekly, ...)
+Name some Homophone;Same pronunciation, but different meaning, origin or spelling (ex. new/knew, to/too/two, ...)
+Consistent: What kind of words may cause potential problem?;homonyms
+Consistent: Changing the symbol may be necessary for consistency, but it could adversely effect ____.;understandability
+Complete: What is internal completeness?;The specification must define any new concept or terminology that it uses.
+Complete: What is external completeness?;The specification must document all the needed requirements.
+Incremental: What is it referring to?;specification process:;	From sketchy document to details;specification document:;	Document is structured and can be understood in increment.
+What does 'operational' mean when it comes to SPECIFICATION STYLE?;Behaviour specification in terms of some abstract machine
+What does 'Descriptive' mean when it comes to SPECIFICATION STYLE?;Behaviour described in terms of properties
+Example:'The result of sorting array a is an array b which is a permutation of a and is sorted.' How to formalize the notion of sorted?;sorted(A)_=\forall(i:N|0<=i<=(|A|-2):A[i]<=A[i+1])
+'Sorted' in operational specification.;Let a be an array of n elements. The result of its sorting is an array b of n elements such that the first element of b is the  minimum of a (if several elements of a have the same value, any one of them is acceptable), the second element of b is minimum of the array of n-1 elements obtained from a by removing its minimum element, and so on until all n elements of a have been removed.

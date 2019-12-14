@@ -1,0 +1,28 @@
+What was LINE FORMATTER SPECIFICATION written to?;To improve on existing specifications
+Qualities that is used to measure how well does the specification is written.;abstract;correct;unambiguous;complete;consistent;verifiable
+Line Formatter: ET;End of text indicator;
+Line Formatter: BL;Break character, blank line
+Line Formatter: NL;Breaker character, new line
+Line Formatter: Non Break Character;All others except ET
+Line Formatter: Word;Word is a non-empty sequence of non break characters
+Line Formatter: Break;Break is a sequence of one or more break characters
+Line Formatter: Output;Output same sequence of words, except if there is an oversize word
+Line Formatter: What does oversize mean?;Oversize means more than MAXPOS characters, where MAXPOS is a positive integer
+Line Formatter: If there is an oversize, what to do?;Set Alarm to True;Exit the program
+Line Formatter: Up to the point of an error, what properties should the program's output have?;A new line should start only between words and at the beginning of the output text, if any;A break in the inout is reduced to a single break character in the output;As many words as possible should be placed on each line(i.e. between successive NL characters);No line may contain more than MAXPOS characters(words and BLs)
+ET is a machine dependent (program domain) concept - abstractly, the input is simply a finite sequence of characters. Is this statement true or false?;True
+The output file does not contain ET, what kind of situation is it?;It is either a bug in the specification or a significant non-uniformity.
+Is LINE FORMATTER ambiguous? Why?;Yes.;    "Output text, if any";    "point of error" is not defined.;    "trailing blanks ending with ET" is ambiguous. (trailing means at the end!)
+Give reasons why Line Formatter is not complete?;Meaning of NL and its relation to the concept of line is left implicit - seem to expect that NL means carriage return on output, but they do not say this.;Alarm is not specified if MAXPOS is never exceeded.
+Is Line Formatter CONSISTENT? Why?;No.;"non-empty" and "one or more" (synonyms);"stream" and "sequence"(synonyms)
+Sequence of T is the same as sequence of sequence of T. Is this statement True or False?;False.
+If the specification is ambiguous and incorrect, then it cannot be verified. Is this statement True or False?;True.
+Advantage of natural language.;Understandability
+Advantages of formal specification.;Unambiguous;Highlights difficult to informally detect cases;Checking for completeness and consistency;Amenable to tool support
+Disadvantages of both natural language and formal specification.;have to maintain two specs
+When writing in any language, pay attention to either grammar or semantics is allowed. Is this statement True or False?;False. You need to get BOTH right!
+In natural languages, ambiguity desired, intentionally possible. Is this statement True or False?;True
+In natural languages, unambiguous statements almost impossible. Is this statement True or False?;True
+In natural mathematics, ambiguity not desired, intentionally prevented. Is this statement True or False?;True
+In natural mathematics, ambiguous statements almost impossible(even in probability theory, fuzzy logic). Is this statement True or False?;True
+Mathematics is the language of engineering. Is this statement True or False?;True

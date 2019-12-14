@@ -1,0 +1,1 @@
+Outline.;1. Nonfunctional testing;2. Functional testing;3. Testing phases;4. Theoretical foundations of testing;5. Complete coverage principle;6. Statement coverage;7. Edge coverage;8. Condition coverage;9. Path coverage

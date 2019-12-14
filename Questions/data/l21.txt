@@ -1,0 +1,10 @@
+Name the types of specifications.;Operational;Descriptive
+What are the kinds of operational specifications?;Data flow diagram;UML diagram;Mill's black-box;Finite state machine
+What are the kinds of descriptive specifications?;Entity relationship diagram;Logic-based notation;Algebraic specification
+Name the languages for modular specification.;Statecharts;Tabular expressions
+Specification is a board term that means ____?;definition
+When does specification use?;Statement of user requirements;Statement of interface between the machine and the controlled environment;Requirements for implementation;A reference point during maintenance
+Generally, a statement or agreement (contract) between ____?;Producer and consumer of a service;Implementer and user
+All desirable qualities must be specified. This this correct?;Correct
+Major failures occur because of misunderstanding between the ____ and the ____?;producer;user
+The hardest single part of building a software system is ____?;deciding precisely what to build.

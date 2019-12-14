@@ -1,0 +1,11 @@
+Puzzle: Two fathers and two sons went shopping for hats, but only got three. Why?;Grandfather, father, son
+Not a Question: Outline.;1. History of tables;2. Example tables;3. Semantics for tables;4. Classification of tables;5. Tables in practise;6. Advantages of tables
+Example Tables: In the case of solving the quadratic equation, what are the advantages of the tabular specification?;1. Understandable;2. Unambiguous;3. Check for completeness and disjointness;4. Test cases
+Semantics for tables: Why we need precise semantics?;1. To promote an unambiguous unstanding for both writers and readers.;2. To understand the meaning of tables that look similar, but have different semantics.;3. To be able to link tables of different types.;4. To know what notion we can use in tabled.;5. To be able to build software tools that create, edit, transform and print tables.
+Semantics for tables: Disjointedness and Completeness are not part of the semantics of tables. Is this statement True or False?; True
+Semantics for tables: We impose these conditions to make tables more ____ in practise.;useful
+Classification of Table: Tabular expressions can be classified according to the orientation of the tables.;Vertical condition tables;Horizontal condition tables
+Tables in Practise: Vertical condition tables for the software design - better suited to ____?;multiple outputs.
+Tables in practise: Tables enable production of formal requirements that are readable by domain experts. Is this statement True or False?;True
+Tables in practise: What can be used to enhance readability of a table?;Natural language expression.
+Advantages of Tables: Advantages.;1. Tabular expressions describe relations through pre and post conditions - ideal for describing behaviour without sequences of operations;2. They make it easy to ensure input domain coverage;3. They are easy to read and understand (you need just a little practise to write them);4. Coding from tables results in extremely well structured code;5. They facilitate identification of test cases;6. Extremely good for real-time/embedded systems

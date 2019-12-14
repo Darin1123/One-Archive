@@ -1,0 +1,8 @@
+Outline;1. Goal of testing;2. Test plan;3. Types of test
+What is the goal of testing.;To show the presence of bugs (Dijkstra, 1972)
+If tests do not detect failures, we cannot conclude that software is defect-free. Is this statement True or False?;True
+What is  risk?;A risk is a condition that can result in a loss
+What are involved in risk analysis?;1. How bad the loss can be;2. Probability of the loss occurring
+What does FMEA stand for?;Failure Mode Effect Analysis.;---One approach to risk analysis 
+Where is white box testing derived from?;The program's internal structure.
+Where is black box testing derived from?;A description of the program's function.

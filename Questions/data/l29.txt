@@ -1,0 +1,8 @@
+Outline;1. What are the goals of verification?;2. What are the main approaches to verification?;    1) What kind of assurance do we get through testing?;    2) Can testing prove correctness?;    3) How can testing be done systematically?;    4) How can we remove defects (debugging)?;3. What are the main approaches to software analysis?;4. Informal versus formal analysis
+Define Verification.;"Are we building the product right? Are we implementing the requirements correctly (internal)?";;    The process of evaluating software to determine whether the products of a given development phase satisfy the conditions imposed at the start of that phase.
+Define Validation.;Are we building the right product? Are we getting the right requirements (external)?;;    The process of evaluating software during or at the end of the development process to determine whether it satisfies specified requirements.
+What does CMM stand for?;Capability Maturity Model
+Designers are fallible even if they are skilled and follow sound principles. Is this statement True or False?;True
+Even verification itself must be verified. Is this statement True or False?;True
+Properties of Verification.;1. May not be binary.;2. May be subjective or objective;3. Even implicit qualities should be verified.
+Approaches to Verification.;1. Experiment with behaviour of product.(Dynamic technique);2. Analyze product to deduce its adequacy.(Static technique)

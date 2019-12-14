@@ -1,0 +1,16 @@
+What is a Design Pattern?;A design pattern is a recurring structure of communicating components that solves a general design problem within a particular context
+Design patterns consist of multiple modules, but they do not constitute an entire system architecture. Is this statement True or False?;True
+Strategy lets the algorithm vary independently from ____?;The clients that use it.
+What does MVC stand for?;Model View Controller
+MVC: Name the three components.;1. Model encapsulates the system's data as well as the operations on the data;2. View displays the data from the model components, possibly multiple view components;3. Controller handles input actions
+The controller may or may not depend on the state of the model. Is this statement True or False?;True
+When does the controller depends on model state?;When menu items are enabled or disabled depending on the state of the model.
+Advantages of MCV.;1. Simultaneous development;2. High cohesion;3. Low coupling;4. Ease of modification;5. Multiple views for a model
+Disadvantages of MCV.;1. Code navigability;2. Multi-Artifact consistency;3. Pronounced learning curve
+Classification of Patterns.;1. Creational design patterns;2. Structural design patterns;3. Behavioural design patterns
+Creational design pattern.;1. Abstract factory;2. Object pool;3. Prototype;4. Singleton
+Structural design pattern.;1. Adapter;2. Bridge;3. prototype;4. Singleton
+Behavioural design pattern.;1. Command;2. Iterator;3. Observer;4. State;5. Strategy
+Describing Patterns: Context.;The situation giving rise to a design pattern
+Describing Patterns: Problem.;A recurring problem arising in that situation
+Describing Patterns: Solution.;A proven solution to that pattern.

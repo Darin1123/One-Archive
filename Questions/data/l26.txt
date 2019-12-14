@@ -1,0 +1,5 @@
+What are the limitations to the Measurable interface?;1. You can only add a Measurable interface to classes that you control;2. You can measure an object in only one way.
+What do cases used for often?;Often used for capturing requirements.
+Each circle is a use case. Is this statement True or False?;True.
+What do LINES represent?;Possible interactions.
+Sequence Diagrams: What does it represent?;A specific use case scenario.

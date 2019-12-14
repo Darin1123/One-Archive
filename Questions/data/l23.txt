@@ -1,0 +1,5 @@
+How might you verify a specification?;Observe dynamic behaviour of the specified system;Mathematically analyze properties of the specified system, include proof.;Analogy with traditional engineering.
+When to Potentially use FSMs?;Describing control flow;Clear finite set of states (or modes);Specify acceptable strings for a parser;Specifying hardware design;For synchronous models (at any time a global state must be defined and a single transition must occur)
+FSM: Limitations?;Finite memory;State explosion Given n states, their composition is also a FSM. The growth is exponential with the number of FSMs, not linear.
+Define Events.;Events can be viewed as "pulses" in time - they do not last (retain their values)
+Define Conditions.;Conditions may retain their values indefinitely

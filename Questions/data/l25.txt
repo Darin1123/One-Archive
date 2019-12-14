@@ -1,0 +1,13 @@
+Correct syntax guarantees correct semantics. Is this statement correct?;False. Correct syntax does not guarantee correct semantics.
+English and other natural languages express both static and dynamic views. Is this statement True or False?;True. 
+What kind of world view do Imperative programming languages have?;Primarily dynamic world view(changes).
+What kind of world view do Functional programming languages have?;Static world view.
+What kind of world view does Mathematics have?;Static world view only.
+Very different world views clear a conceptual hurdle for the translator. Is this statement True or False?;False.;The correct statement is "very different world views pose a conceptual hurdle for the translator".
+Translating a statement from one language to another is a multistep (not single) process. Is this statement correct?;True.
+What makes a good translator?;1. Knowing two languages well;2. Knowing the subject being translated;3. Knowing how to translate
+The three things in Q8 are kind of the same thing. Is this statement True or False?;False. These three things are different.
+The translator must bridge the gap between _____?;1. Dynamic and static view of problem statement;2. Dynamic world view of imperative and OO programming;3. Purely static world view of mathematics
+The process of Translation.;Source Language-->Meaning-->Mental Understanding-->Target Language
+Strategies for translation:;1 Understand the meaning of the original;2. Obtain all needed information;3. Close the gap between the English text and mathematics;4. Divide and conquer (complexity)
+Example: "Find the location in D(: sequence of T) of a particular value key(: T)" What are the two cases?;1. Key in D;2. Key not in D
