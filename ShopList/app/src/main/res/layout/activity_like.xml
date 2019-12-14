@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/likeRed"
+    android:padding="10dp">
+
+    <!--head-->
+    <RelativeLayout
+        android:id="@+id/rv_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back_btn_style"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"/>
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/heart"
+                android:src="@drawable/big_heart"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/heart"
+                android:text="Like"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:textSize="22sp"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_add_like"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/plus_btn_style"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_like"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_head"
+        android:dividerHeight="5dp"
+        android:layout_above="@id/bottom"
+        android:divider="@color/likeRed">
+    </ListView>
+    
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"></RelativeLayout>
+
+
+</RelativeLayout>
